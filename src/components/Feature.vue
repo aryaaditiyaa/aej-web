@@ -7,28 +7,28 @@
         <div class="mt-6 grid grid-cols-2 gap-4 md:gap-12 md:space-y-0">
           <div>
             <div class="flex items-center mb-2 rounded-full">
-              <img src="public/android-logo.svg" alt="Android" class="w-12"/>
+              <img src="/public/android-logo.svg" alt="Android" class="w-12"/>
             </div>
             <h3 class="mb-1 text-xl font-bold dark:text-white">Kotlin</h3>
             <p class="text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet.</p>
           </div>
           <div>
             <div class="flex items-center mb-2 rounded-full">
-              <img src="public/android-logo.svg" alt="Android" class="w-12"/>
+              <img src="/public/android-logo.svg" alt="Android" class="w-12"/>
             </div>
             <h3 class="mb-1 text-xl font-bold dark:text-white">Swift</h3>
             <p class="text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet.</p>
           </div>
           <div>
             <div class="flex items-center mb-2 rounded-full">
-              <img src="public/android-logo.svg" alt="Android" class="w-12"/>
+              <img src="/public/android-logo.svg" alt="Android" class="w-12"/>
             </div>
             <h3 class="mb-1 text-xl font-bold dark:text-white">Flutter</h3>
             <p class="text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet.</p>
           </div>
           <div>
             <div class="flex items-center mb-2 rounded-full">
-              <img src="public/android-logo.svg" alt="Android" class="w-12"/>
+              <img src="/public/android-logo.svg" alt="Android" class="w-12"/>
             </div>
             <h3 class="mb-1 text-xl font-bold dark:text-white">React Native</h3>
             <p class="text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet.</p>
