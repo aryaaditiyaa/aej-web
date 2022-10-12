@@ -6,37 +6,11 @@ import Feature from "./components/Feature.vue";
 </script>
 
 <template>
-  <Heroes />
+  <Heroes/>
 
-  <Feature />
+  <Feature/>
 
-  <OurTeam />
+  <OurTeam/>
 
-  <Footer />
+  <Footer/>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      post: [],
-      isLoading: false,
-    };
-  },
-  methods: {
-    getPosts() {
-      this.isLoading = true;
-
-      fetch("https://jsonplaceholder.typicode.com/posts/")
-        .then((response) => response.json())
-        .then((data) => {
-          this.post = data;
-          this.isLoading = false;
-        });
-    },
-  },
-  mounted() {
-    this.getPosts();
-  },
-};
-</script>
