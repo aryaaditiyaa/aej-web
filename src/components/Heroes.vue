@@ -1,3 +1,7 @@
+<script setup>
+import Navbar from './Navbar.vue';
+</script>
+
 <template>
   <section class="relative bg-gray-900 min-h-screen">
     <div class="z-10 relative">
@@ -9,8 +13,8 @@
           <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
         </a>
         <h1 class="mt-0 lg:mt-8 mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl dark:text-white">Android Enthusiast Jakarta</h1>
-        <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-200">Help connecting tech enthusiast to meet others, grow, learn, share and make a good relation among us.</p>
-        <div class="flex flex-col mt-0 lg:mt-12 mb-8 lg:mb-24 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+        <p class="mb-8 mt-6 md:mt-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-200">Help connecting tech enthusiast to meet others, grow, learn, share and make a good relation among us.</p>
+        <div class="flex flex-col mt-0 lg:mt-12 mb-24 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 dark:focus:ring-green-900">
             Join Our Community
             <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
@@ -26,13 +30,13 @@
           <span class="font-semibold text-gray-400 uppercase">OUR PARTNER</span>
           <div class="flex flex-wrap justify-center items-center mt-8 text-gray-500 space-x-6 lg:space-x-20">
             <a href="#" class="mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400">
-              <img src="/public/grab-logo.svg" class="w-20 lg:w-28" />
+              <img src="/public/grab-logo.svg" class="w-20 lg:w-28" alt="Grab"/>
             </a>
             <a href="#" class="mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400 rounded px-2 py-1 bg-gray-200">
-              <img src="/public/dicoding-logo.png" class="w-20 lg:w-32" />
+              <img src="/public/dicoding-logo.png" class="w-20 lg:w-32" alt="Dicoding" />
             </a>
             <a href="#" class="mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400">
-              <img src="/public/amartha-logo-2020.png" class="w-20 lg:w-36" />
+              <img src="/public/amartha-logo-2020.png" class="w-20 lg:w-36"  alt="Amartha"/>
             </a>
           </div>
         </div>
@@ -43,11 +47,3 @@
     </div>
   </section>
 </template>
-
-<script>
-import Navbar from "./Navbar.vue";
-
-export default {
-  components: {Navbar}
-}
-</script>

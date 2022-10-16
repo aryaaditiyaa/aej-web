@@ -1,6 +1,10 @@
+<script setup>
+import { RouterLink } from 'vue-router'
+</script>
+
 <template>
   <header>
-    <nav class="px-4 lg:px-6 py-4 lg:py-8">
+    <nav class="px-4 lg:px-6 py-4 lg:py-6">
       <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
         <a href="#" class="flex items-center bg-green-600 px-1 lg:px-2 py-1.5 lg:py-2.5 rounded">
           <img src="/public/aej-logo.svg" class="h-3 sm:h-5" alt="AEJ Logo" />
@@ -16,10 +20,10 @@
         <div class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
           <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
             <li>
-              <a href="#" class="block py-2 pr-4 pl-3 text-green-500 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-green-700 lg:p-0" aria-current="page">Home</a>
+              <RouterLink to="/" class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-green-700 lg:p-0">Home</RouterLink>
             </li>
             <li>
-              <a href="#" class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-green-700 lg:p-0">Event</a>
+              <RouterLink to="/event" class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-green-700 lg:p-0">Event</RouterLink>
             </li>
             <li>
               <a href="#" class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-green-700 lg:p-0">Academy</a>
