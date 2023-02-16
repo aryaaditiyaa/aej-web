@@ -1,17 +1,21 @@
 <template>
-  <section class="bg-green-50 dark:bg-gray-900">
+  <section class="bg-gray-50 dark:bg-gray-900">
     <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
       <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
-        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our Team</h2>
-        <p class="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Explore the whole collection of open-source web components and elements built with the utility classes from Tailwind</p>
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our Executive Organizer</h2>
+        <p class="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consequat.</p>
       </div>
-      <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-3">
+      <div class="grid gap-4 md:gap-8 mb-6 lg:mb-16 grid-cols-2 md:grid-cols-3">
         <div v-for="team in teams" :key="team.id" class="items-center bg-white rounded-lg shadow sm:flex">
           <a href="#">
-            <img class="w-36 h-48 object-cover object-center rounded-lg sm:rounded-none sm:rounded-l-lg" :src="team[2]" alt="{{ team[1] }}">
+            <img
+                class="w-full md:w-36 h-48 object-cover object-center rounded-lg sm:rounded-none sm:rounded-l-lg"
+                :src="team[2]"
+                alt="{{ team[1] }}"
+            />
           </a>
           <div class="p-5">
-            <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h3 class="text-base lg:text-xl line-clamp-2 font-bold tracking-tight text-gray-900 dark:text-white">
               <a href="#">{{ team[1] }}</a>
             </h3>
             <span class="text-gray-500 dark:text-gray-400">{{ team[3] }}</span>

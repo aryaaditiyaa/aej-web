@@ -1,16 +1,11 @@
 <script setup>
-import Heroes from "./components/Heroes.vue";
-import Footer from "./components/Footer.vue";
-import OurTeam from "./components/OurTeam.vue";
-import Feature from "./components/Feature.vue";
+import { RouterView } from 'vue-router'
+import Footer from "./components/Footer.vue"
+
 </script>
 
 <template>
-  <Heroes/>
-
-  <Feature/>
-
-  <OurTeam/>
+  <RouterView/>
 
   <Footer/>
 </template>
